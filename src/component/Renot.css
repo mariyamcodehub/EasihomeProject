@@ -1,0 +1,125 @@
+.Renovation-banner {
+    background-image: url(images/renovation.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.renovation-quote {
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.p1 {
+    color: rgb(39, 20, 20);
+}
+
+.p2 {
+    color: rgb(59, 13, 13)
+}
+
+.p3 {
+    color: rgb(1, 1, 133);
+    ;
+}
+
+.Construct-gallery .pic4 {
+    background-image: url(images/pic4.jpg);
+}
+
+.Construct-gallery .pic5 {
+    background-image: url(images/pic5.jpg);
+}
+
+.Construct-gallery .pic6 {
+    background-image: url(images/pic6.jpg);
+}
+
+
+.cards-box {
+    width: 100%;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 180px;
+    height: 115px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    background: linear-gradient(315deg, #e0e1e1, #ffffff);
+    box-shadow: -5px -5px 10px #c0c1c1, 5px 5px 10px #ffffff;
+}
+
+.card .img {
+
+    width: 66px;
+    height: 66px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.renot1 {
+    background-image: url(images/renot1.png);
+}
+
+.renot2 {
+    background-image: url(images/cardimg2.png);
+}
+
+.renot3 {
+    background-image: url(images/cardimg3.png);
+}
+
+.renot4 {
+    background-image: url(images/cardimg4.png);
+}
+
+.card div a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .Renovation-banner {
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+    }
+
+    .renovation-quote {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .cards-box {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}

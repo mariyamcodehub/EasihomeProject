@@ -1,0 +1,67 @@
+.Container-footer {
+    background-color: rgb(1, 1, 134);
+    height: 85vh;
+    width: 100%;
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.row-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.Address {
+    width: 20rem;
+}
+
+.Sitemap {
+    width: 20rem;
+}
+
+.Others {
+    width: 20rem;
+}
+
+.row-footer h4 {
+    margin-bottom: 20px;
+}
+
+.row-footer p {
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .row-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .row-footer h4 {
+        margin-top: 20px;
+        color: yellowgreen;
+        text-align: center;
+    }
+
+    .Container-footer {
+        height: auto;
+        min-height: 85vh;
+    }
+
+    .Address,
+    .Sitemap,
+    .Others {
+        width: 100%;
+    }
+}

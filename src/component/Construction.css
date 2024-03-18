@@ -1,0 +1,275 @@
+.Construction-banner {
+    height: 110vh;
+    width: 100%;
+    background-image: url(images/cnst.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.construction-quote {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.construction-quote>.p1 {
+    color: yellow;
+}
+
+.construction-quote>.p2 {
+    color: rgb(116, 116, 254);
+}
+
+.construction-quote>.p3 {
+    color: rgb(254, 195, 195);
+}
+
+.consult-form-container {
+    margin-top: 50px;
+    width: 420px;
+    height: 90vh;
+    background-color: #fefef8;
+    border-radius: 5px;
+}
+
+.f-h2 {
+    background-color: rgba(255, 225, 0, 0.786);
+    color: rgb(255, 251, 251);
+    font-size: 1.85rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.consult-form>label {
+    display: block;
+    color: rgb(18, 1, 126);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.consult-form {
+    margin: 2px 15px;
+    background-color: #fefef8;
+}
+
+.consult-form>input[type="text"],
+.consult-form>[type="email"],
+.consult-form>textarea {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 18px;
+    box-shadow: rgb(114, 114, 114) 0px 0px 5px 2px inset;
+}
+
+.select-dropdown {
+    color: blue;
+    margin: 10px 10px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: rgb(114, 114, 114) 0px 0px 5px 2px inset;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    cursor: pointer;
+}
+
+.button {
+    margin: auto;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button>input {
+    background-color: #014b99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #0570dc;
+}
+
+.sym-construction {
+    background-image: url(images/home.png);
+    background-size: contain;
+    height: 40px;
+    width: 50px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.mx {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Construct-gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Construct-gallery .pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 33%;
+}
+
+.Construct-gallery .pic1 {
+    background-image: url(images/F1.jpg);
+}
+
+.Construct-gallery .pic2 {
+    background-image: url(images/F2.jpg);
+}
+
+.Construct-gallery .pic3 {
+    background-image: url(images/F3.jpg);
+}
+
+.gallery-container {
+    display: none;
+}
+
+.construct-package {
+    margin: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-one {
+    height: 105vh;
+    width: 25vw;
+    margin: 20px;
+}
+
+.basic {
+    background-color: rgb(1, 1, 109);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 10px;
+    height: 25vh;
+}
+
+.list li {
+    padding: 16px;
+    list-style: none;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.gift-wrap {
+    background-image: url(images/giftbox.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-bottom {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.banner-image {
+    background-image: url(images/banner-bottom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 50vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .Construction-banner {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .construction-quote {
+        font-size: 10px;
+    }
+
+    .consult-form-container {
+        display: none;
+    }
+
+    .Construct-gallery {
+        display: none;
+    }
+
+
+    .gallery-container {
+        display: flex;
+    }
+
+    .abt-head {
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .construct-package {
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .basic {
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .package-one {
+        width: 100%;
+        height: 600px;
+    }
+
+    .banner-bottom {
+        height: 150px;
+    }
+
+    .banner-image {
+        width: 100%;
+
+    }
+
+}

@@ -1,0 +1,28 @@
+.privacy-page {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    gap: 30px;
+}
+
+.privacy-page>h1 {
+    font-weight: 500;
+}
+
+.privacy-list>li {
+    font-size: 13px;
+}
+
+.privacy-all>h4 {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.privacy-all>p {
+    font-size: 13px;
+}

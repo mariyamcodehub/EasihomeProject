@@ -1,0 +1,97 @@
+.refer-container {
+    height: auto;
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.refer-container h1 {
+    font-weight: 500;
+}
+
+.refer-container p {
+    font-size: 14px;
+}
+
+.refer-card {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.last-card {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.card-refer,
+.card-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.refer-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 100%;
+
+    max-width: 380px;
+
+}
+
+.img1 {
+    background-image: url(images/fill_form.png);
+}
+
+.img2 {
+    background-image: url(images/share.png);
+}
+
+.img3 {
+    background-image: url(images/succesfull.png);
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: midnightblue;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #333;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 900px) {
+    .refer-container {
+        width: 90%;
+
+    }
+
+    .refer-card {
+        justify-content: flex-start;
+
+    }
+}

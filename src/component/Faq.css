@@ -1,0 +1,45 @@
+.faq-container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.faq-banner {
+    background-image: url(images/faq.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 30vh;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.faq-question {
+    background-color: white;
+    border: 2px solid #f4f4f4;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+}
+
+.faq-question.open {
+    background-color: #ddd;
+}
+
+.faq-answer.open {
+    display: block;
+}
+
+.faqi {
+    background-image: url(images/check-mark.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin: 7px 20px;
+    float: left;
+}
