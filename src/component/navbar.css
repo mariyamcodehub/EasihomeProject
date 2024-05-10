@@ -1,19 +1,18 @@
 .navbar {
     width: 100%;
-    height: 80px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #333;
-    padding: 10px 20px;
     position: relative;
 }
 
 .logo {
+    margin: 10px 20px;
     width: 200px;
     height: 63px;
-    background-image: url(images/easihome.png);
+    background-image: url(./assets/images/easihome.png);
     background-size: cover;
 }
 
@@ -21,12 +20,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 35px;
 }
 
 .list-icon ul {
     display: flex;
-    padding: 0;
     margin: 0;
 }
 
@@ -34,18 +31,12 @@
     list-style: none;
     font-size: 16px;
     font-weight: 550;
-    padding: 10px;
 }
 
 .list-icon li a {
-    color: rgb(56, 56, 56);
+    color: #000;
     text-decoration: none;
-}
-
-.list-icon li:hover {
-    background-color: rgb(241, 241, 241);
-    transition: 1ms ease-in;
-
+    padding: 12px 14px;
 }
 
 .navbar .menu {

@@ -1,23 +1,24 @@
 import React from 'react'
+import './App.css'
 import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
-import Home from './component/Home';
+import Home from './component/home/page';
 import Footer from "./component/Footer"
 import Navbar from "./component/Navbar"
-import Aboutus from "./component/Aboutus"
-import Construction from "./component/Construction"
-import Renot from "./component/Renot"
-import Interior from "./component/Interior"
-import Painting from './component/Painting';
-import Contact from './component/Contact';
-import Form from './component/Form';
-import Formpain from './component/Formpain';
-import Constructionpayment from './component/Constructionpayment';
-import Join from './component/Join';
-import Refer from './component/Refer';
-import Termspage from './component/Termspage';
-import Privacy from './component/Privacy';
-import Faqpage from './component/Faqpage';
-import Cancellation from './component/Cancellation';
+import Aboutus from "./component/about/page"
+import Construction from "./component/construction/page"
+import Renot from "./component/renovation/page"
+import Interior from "./component/interior/page"
+import Painting from './component/painting/page';
+import Contact from './component/contact/page';
+import Form from './component/form/page';
+import Formpain from './component/formPainting/page';
+import Constructionpayment from './component/payment/Constructionpayment';
+import Join from './component/join/Join';
+import Refer from './component/refer/Refer';
+import Termspage from './component/termspage/Termspage';
+import Privacy from './component/privacy/Privacy';
+import Faqpage from './component/faq/Faqpage';
+import Cancellation from './component/cancellation/page';
 
 
 function App() {
